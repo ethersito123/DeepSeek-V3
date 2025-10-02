@@ -82,6 +82,7 @@ class ModelArgs:
     beta_fast: int = 32
     beta_slow: int = 1
     mscale: float = 1.
+    model_name: str = "Albait"
 
 
 class ParallelEmbedding(nn.Module):
